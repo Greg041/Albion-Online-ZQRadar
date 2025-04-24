@@ -257,6 +257,10 @@ function onEvent(Parameters)
             console.log("Key sync")
             console.log(Parameters)
             break;
+
+        /*default:
+            console.log("default");
+            console.log(Parameters);*/
     }
 };
 
