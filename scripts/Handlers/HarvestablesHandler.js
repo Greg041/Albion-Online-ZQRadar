@@ -150,8 +150,6 @@ class HarvestablesHandler
     // Good
     newHarvestableObject(id, Parameters) // Update
     {
-        console.log(Parameters);
-
         const type = Parameters[5];
         const tier = Parameters[7];
         const location = Parameters[8];
@@ -175,7 +173,7 @@ class HarvestablesHandler
         return bytes;
     }
 
-    // Normally work with everything 
+    // Normally work with everything except living hide resource
     // Good
     newSimpleHarvestableObject(Parameters) // New
     {

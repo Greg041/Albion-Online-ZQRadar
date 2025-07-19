@@ -88,7 +88,7 @@
         else
         {
             this.settings.preloadImageAndAddToList(src, folder)
-            .then(() => console.log('Item loaded'))
+            .then(() => console.log('Item loaded', imageName))
             .catch(() => console.log('Item not loaded'));
         }
     }

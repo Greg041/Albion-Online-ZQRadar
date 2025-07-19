@@ -20,313 +20,155 @@ class MobsInfo{
 
     initMobs()
     {
-        //#region Hide        
+        //#region Hide    
+        // Mountains
+        this.addItem(455, 1, EnemyType.LivingSkinnable, "hide"); // rabbit
+        
         // Steppe biome
-        this.addItem(386, 1, EnemyType.LivingSkinnable, "hide"); // Marmot
-        this.addItem(387, 2, EnemyType.LivingSkinnable, "hide"); // Impala
-        this.addItem(388, 3, EnemyType.LivingSkinnable, "hide"); // Moabird
-        this.addItem(389, 4, EnemyType.LivingSkinnable, "hide"); // Giant stag
-        this.addItem(390, 5, EnemyType.LivingSkinnable, "hide"); // Terrorbird
-        this.addItem(391, 6, EnemyType.LivingSkinnable, "hide"); // Hyena
-        this.addItem(392, 7, EnemyType.LivingSkinnable, "hide"); // Rhino
-        this.addItem(393, 7, EnemyType.LivingSkinnable, "hide"); // Bighorn Rhino
-        this.addItem(394, 8, EnemyType.LivingSkinnable, "hide"); // Mammoth
-        this.addItem(395, 8, EnemyType.LivingSkinnable, "hide"); // Ancient Mammoth
+        this.addItem(436, 3, EnemyType.LivingSkinnable, "hide"); // Moabird
+        this.addItem(434, 4, EnemyType.LivingSkinnable, "hide"); // Giant stag
+        this.addItem(538, 4, EnemyType.LivingSkinnable, "hide"); // Cougar
+        this.addItem(438, 4, EnemyType.LivingSkinnable, "hide"); // Giant stag
+        this.addItem(440, 5, EnemyType.LivingSkinnable, "hide"); // Terrorbird
+        this.addItem(442, 6, EnemyType.LivingSkinnable, "hide"); // Hyena
+        this.addItem(444, 7, EnemyType.LivingSkinnable, "hide"); // Rhino
 
         // Steppe biome treasure
-        this.addItem(396, 4, EnemyType.LivingSkinnable, "hide"); // T4_MOB_TREASURE_HIDE_STEPPE_GIANTSTAG
-        this.addItem(397, 5, EnemyType.LivingSkinnable, "hide"); // T5_MOB_TREASURE_TERRORBIRD
-        this.addItem(398, 6, EnemyType.LivingSkinnable, "hide"); // T6_MOB_TREASURE_DESERTWOLF
-        this.addItem(399, 7, EnemyType.LivingSkinnable, "hide"); // T7_MOB_TREASURE_RHINO
-        this.addItem(400, 8, EnemyType.LivingSkinnable, "hide"); // T8_MOB_TREASURE_ANCIENTMAMMOTH
 
-        this.addItem(475, 3, EnemyType.LivingSkinnable, "hide"); // Cougar
-        this.addItem(476, 5, EnemyType.LivingSkinnable, "hide"); // Cougar
-        this.addItem(477, 7, EnemyType.LivingSkinnable, "hide"); // Cougar
-
-        /*// Highland
-        this.addItem(372, 1, EnemyType.LivingSkinnable, "hide"); // Rabbit
-        this.addItem(373, 1, EnemyType.LivingSkinnable, "hide"); // Marmot*/
+        // Highland
+        this.addItem(456, 1, EnemyType.LivingSkinnable, "hide"); // Marmot
 
         // Forest biome 
-        this.addItem(358, 1, EnemyType.LivingSkinnable, "hide"); // Rabbit
-        this.addItem(359, 2, EnemyType.LivingSkinnable, "hide"); // Fox
-        this.addItem(360, 2, EnemyType.LivingSkinnable, "hide"); // Fox tutorial
-        this.addItem(361, 3, EnemyType.LivingSkinnable, "hide"); // Wolf
-        this.addItem(362, 4, EnemyType.LivingSkinnable, "hide"); // Boar
-        this.addItem(363, 5, EnemyType.LivingSkinnable, "hide"); // Bear
-        this.addItem(364, 6, EnemyType.LivingSkinnable, "hide"); // Direwolf
-        this.addItem(365, 6, EnemyType.LivingSkinnable, "hide"); // Giant Stag
-        this.addItem(366, 7, EnemyType.LivingSkinnable, "hide"); // Direboar small
-        this.addItem(367, 7, EnemyType.LivingSkinnable, "hide"); // Direboar
-        this.addItem(368, 8, EnemyType.LivingSkinnable, "hide"); // Direbear small
-        this.addItem(369, 8, EnemyType.LivingSkinnable, "hide"); // Direbear
 
         // Forest biome treasure
-        this.addItem(370, 4, EnemyType.LivingSkinnable, "hide"); // T4_MOB_TREASURE_BOAR
-        this.addItem(371, 5, EnemyType.LivingSkinnable, "hide"); // T5_MOB_TREASURE_BEAR
-        this.addItem(372, 6, EnemyType.LivingSkinnable, "hide"); // T6_MOB_TREASURE_DIREWOLF
-        this.addItem(373, 7, EnemyType.LivingSkinnable, "hide"); // T7_MOB_TREASURE_DIREBOAR
-        this.addItem(374, 8, EnemyType.LivingSkinnable, "hide"); // T8_MOB_TREASURE_DIREBEAR
 
         // Swamp biome
-        this.addItem(375, 1, EnemyType.LivingSkinnable, "hide"); // Toad
-        this.addItem(376, 2, EnemyType.LivingSkinnable, "hide"); // Snake
-        this.addItem(377, 3, EnemyType.LivingSkinnable, "hide"); // Giant toad
-        this.addItem(378, 4, EnemyType.LivingSkinnable, "hide"); // Monitor lizard
-        this.addItem(379, 5, EnemyType.LivingSkinnable, "hide"); // Giant snake
-        this.addItem(380, 6, EnemyType.LivingSkinnable, "hide"); // Dragon
-        this.addItem(381, 7, EnemyType.LivingSkinnable, "hide"); // Marabou
-        this.addItem(382, 8, EnemyType.LivingSkinnable, "hide"); // Alligator
+        this.addItem(423, 3, EnemyType.LivingSkinnable, "hide"); // toad
+        this.addItem(425, 4, EnemyType.LivingSkinnable, "hide"); // salamander
+        this.addItem(427, 5, EnemyType.LivingSkinnable, "hide"); // snake
 
         // Swamp biome treasure
-        this.addItem(383, 4, EnemyType.LivingSkinnable, "hide"); // T4_MOB_TREASURE_HIDE_SWAMP_MONITORLIZARD
-        this.addItem(384, 5, EnemyType.LivingSkinnable, "hide"); // T5_MOB_TREASURE_GIANTSNAKE
-        this.addItem(385, 6, EnemyType.LivingSkinnable, "hide"); // T6_MOB_TREASURE_DRAGON
 
-        // Roads // TODO
-        /*this.addItem(322, 1, EnemyType.LivingSkinnable, "hide"); // SALAMANDER
-        this.addItem(323, 3, EnemyType.LivingSkinnable, "hide"); // STAG
-        this.addItem(324, 4, EnemyType.LivingSkinnable, "hide"); // DIREWOLF
-        this.addItem(325, 5, EnemyType.LivingSkinnable, "hide"); // BISON
-        this.addItem(326, 6, EnemyType.LivingSkinnable, "hide"); // OWL
-        this.addItem(327, 7, EnemyType.LivingSkinnable, "hide"); // DIREBEAR
-        this.addItem(328, 8, EnemyType.LivingSkinnable, "hide"); // BASILISK*/
+        // Roads 
 
-        // Mists
-        this.addItem(330, 1, EnemyType.LivingSkinnable, "hide"); // WOLPERTINGER
-        this.addItem(331, 2, EnemyType.LivingSkinnable, "hide"); // FOX
-        this.addItem(332, 3, EnemyType.LivingSkinnable, "hide"); // DEER
-        this.addItem(333, 4, EnemyType.LivingSkinnable, "hide"); // GIANTSTAG
-        this.addItem(334, 5, EnemyType.LivingSkinnable, "hide"); // OWL
-        this.addItem(335, 6, EnemyType.LivingSkinnable, "hide"); // HOUND
-        this.addItem(336, 7, EnemyType.LivingSkinnable, "hide"); // DIREBEAR
-        this.addItem(337, 8, EnemyType.LivingSkinnable, "hide"); // DRAGONHAWK
+        // Mists yellow 
+        this.addItem(371, 3, EnemyType.LivingSkinnable, "hide"); // Doe
+        this.addItem(370, 4, EnemyType.LivingSkinnable, "hide"); // HART
+
+        // Mists black common
+        this.addItem(369, 1, EnemyType.LivingSkinnable, "hide");
+        this.addItem(372, 4, EnemyType.LivingSkinnable, "hide"); // HART
+        this.addItem(373, 5, EnemyType.LivingSkinnable, "hide"); // OWL
+        this.addItem(374, 6, EnemyType.LivingSkinnable, "hide"); // Wolfhound
+        // Mists epic
+        
+        // Cougars
+        this.addItem(537, 3, EnemyType.LivingSkinnable, "hide"); // Cougar
+        this.addItem(573, 4, EnemyType.LivingSkinnable, "hide"); // Cougar
+        this.addItem(574, 5, EnemyType.LivingSkinnable, "hide"); // Cougar
+        this.addItem(577, 8, EnemyType.LivingSkinnable, "hide"); // Cougar
 
         // Treasure Mists
-        this.addItem(338, 4, EnemyType.LivingSkinnable, "hide"); // T4_MOB_TREASURE_MISTS_GIANTSTAG
-        this.addItem(339, 5, EnemyType.LivingSkinnable, "hide"); // T5_MOB_TREASURE_MISTS_OWL   
-        this.addItem(340, 6, EnemyType.LivingSkinnable, "hide"); // T6_MOB_TREASURE_MISTS_HOUND
-        this.addItem(341, 7, EnemyType.LivingSkinnable, "hide"); // T7_MOB_TREASURE_MISTS_DIREBEAR
-        this.addItem(342, 8, EnemyType.LivingSkinnable, "hide"); // T8_MOB_TREASURE_MISTS_DRAGONHAWK
-
-        // Cougars
-        this.addItem(493, 4, EnemyType.LivingSkinnable, "hide");
-        this.addItem(494, 5, EnemyType.LivingSkinnable, "hide");
-        this.addItem(495, 6, EnemyType.LivingSkinnable, "hide");
-        this.addItem(496, 7, EnemyType.LivingSkinnable, "hide");
-        this.addItem(497, 8, EnemyType.LivingSkinnable, "hide");
-        // Veteran
-        this.addItem(498, 4, EnemyType.LivingSkinnable, "hide");
-        this.addItem(499, 5, EnemyType.LivingSkinnable, "hide");
-        this.addItem(500, 6, EnemyType.LivingSkinnable, "hide");
-        this.addItem(501, 7, EnemyType.LivingSkinnable, "hide");
-        this.addItem(502, 8, EnemyType.LivingSkinnable, "hide");
-        // Elite
-        this.addItem(503, 4, EnemyType.LivingSkinnable, "hide");
-        this.addItem(504, 5, EnemyType.LivingSkinnable, "hide");
-        this.addItem(505, 6, EnemyType.LivingSkinnable, "hide");
-        this.addItem(506, 7, EnemyType.LivingSkinnable, "hide");
-        this.addItem(507, 8, EnemyType.LivingSkinnable, "hide");
 
         //#endregion
 
         //#region Logs
         // Forest +25
-        this.addItem(483, 3, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(484, 3, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(485, 5, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(486, 5, EnemyType.LivingHarvestable, "Logs");
         this.addItem(487, 7, EnemyType.LivingHarvestable, "Logs");
 
-        // Roads <=> Tx_MOB_CRITTER_WOOD_ROADS
-        this.addItem(508, 4, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(509, 5, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(510, 6, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(511, 7, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(512, 8, EnemyType.LivingHarvestable, "Logs");
-        // Roads Veteran <=> Tx_MOB_CRITTER_WOOD_ROADS_VETERAN
-        this.addItem(513, 4, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(514, 5, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(515, 6, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(516, 7, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(517, 8, EnemyType.LivingHarvestable, "Logs");
-        // Roads Elite <=> Tx_MOB_CRITTER_WOOD_ROADS_ELITE
-        this.addItem(518, 4, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(519, 5, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(520, 6, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(521, 7, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(522, 8, EnemyType.LivingHarvestable, "Logs");
+        // Roads
+        this.addItem(588, 4, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(589, 5, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(590, 6, EnemyType.LivingHarvestable, "Logs");
 
-        // Mists Green <=> Tx_MOB_CRITTER_WOOD_MISTS_GREEN +25
-        this.addItem(568, 3, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(569, 4, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(570, 5, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(571, 6, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(572, 7, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(573, 8, EnemyType.LivingHarvestable, "Logs");
-        // Mists Red <=> Tx_MOB_CRITTER_WOOD_MISTS_RED +25
-        this.addItem(592, 3, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(593, 4, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(594, 5, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(595, 6, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(596, 7, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(597, 8, EnemyType.LivingHarvestable, "Logs");
-        // Mists Dead <=> Tx_MOB_CRITTER_WOOD_MISTS_DEAD +25
-        this.addItem(616, 3, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(617, 4, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(618, 5, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(619, 6, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(620, 7, EnemyType.LivingHarvestable, "Logs");
-        this.addItem(621, 8, EnemyType.LivingHarvestable, "Logs");
+        // Mists
+        this.addItem(648, 3, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(649, 4, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(650, 5, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(651, 6, EnemyType.LivingHarvestable, "Logs");
+        // Mists rare map
+        this.addItem(674, 5, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(675, 6, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(676, 7, EnemyType.LivingHarvestable, "Logs");
+        // Mists epic map
+        this.addItem(699, 6, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(700, 7, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(701, 8, EnemyType.LivingHarvestable, "Logs");
         //#endregion
 
         //#region Rock
         // Highland +25
-        this.addItem(488, 3, EnemyType.LivingHarvestable, "rock");
-        this.addItem(489, 3, EnemyType.LivingHarvestable, "rock");
-        this.addItem(490, 5, EnemyType.LivingHarvestable, "rock");
-        this.addItem(491, 5, EnemyType.LivingHarvestable, "rock");
-        this.addItem(492, 7, EnemyType.LivingHarvestable, "rock");
+        this.addItem(563, 3, EnemyType.LivingHarvestable, "rock");
+         this.addItem(567, 5, EnemyType.LivingHarvestable, "rock");
+         this.addItem(569, 5, EnemyType.LivingHarvestable, "rock");
 
-        // Roads <=> Tx_MOB_CRITTER_ROCK_ROADS +25
-        this.addItem(523, 4, EnemyType.LivingHarvestable, "rock");
-        this.addItem(524, 5, EnemyType.LivingHarvestable, "rock");
-        this.addItem(525, 6, EnemyType.LivingHarvestable, "rock");
-        this.addItem(526, 7, EnemyType.LivingHarvestable, "rock");
-        this.addItem(527, 8, EnemyType.LivingHarvestable, "rock");
-        // Veteran Roads <=> Tx_MOB_CRITTER_ROCK_ROADS_VETERAN +25
-        this.addItem(528, 4, EnemyType.LivingHarvestable, "rock");
-        this.addItem(529, 5, EnemyType.LivingHarvestable, "rock");
-        this.addItem(530, 6, EnemyType.LivingHarvestable, "rock");
-        this.addItem(533, 7, EnemyType.LivingHarvestable, "rock");
-        this.addItem(532, 8, EnemyType.LivingHarvestable, "rock");
-        // Elite Roads <=> Tx_MOB_CRITTER_ROCK_ROADS_ELITE +25
-        this.addItem(533, 4, EnemyType.LivingHarvestable, "rock");
-        this.addItem(534, 5, EnemyType.LivingHarvestable, "rock");
-        this.addItem(535, 6, EnemyType.LivingHarvestable, "rock");
-        this.addItem(536, 7, EnemyType.LivingHarvestable, "rock");
-        this.addItem(537, 8, EnemyType.LivingHarvestable, "rock");
+        // Roads 
+        this.addItem(604, 5, EnemyType.LivingHarvestable, "rock");
+        this.addItem(605, 6, EnemyType.LivingHarvestable, "rock");
 
-        // Mists Green <=> Tx_MOB_CRITTER_ROCK_MISTS_GREEN +25
-        this.addItem(574, 3, EnemyType.LivingHarvestable, "rock");
-        this.addItem(575, 4, EnemyType.LivingHarvestable, "rock");
-        this.addItem(576, 5, EnemyType.LivingHarvestable, "rock");
-        this.addItem(577, 6, EnemyType.LivingHarvestable, "rock");
-        this.addItem(578, 7, EnemyType.LivingHarvestable, "rock");
-        this.addItem(579, 8, EnemyType.LivingHarvestable, "rock");
-        // Mists Red <=> Tx_MOB_CRITTER_ROCK_MISTS_RED +25
-        this.addItem(598, 3, EnemyType.LivingHarvestable, "rock");
-        this.addItem(599, 4, EnemyType.LivingHarvestable, "rock");
-        this.addItem(600, 5, EnemyType.LivingHarvestable, "rock");
-        this.addItem(601, 6, EnemyType.LivingHarvestable, "rock");
-        this.addItem(602, 7, EnemyType.LivingHarvestable, "rock");
-        this.addItem(603, 8, EnemyType.LivingHarvestable, "rock");
-        // Mists Dead <=> Tx_MOB_CRITTER_ROCK_MISTS_DEAD +25
-        this.addItem(622, 3, EnemyType.LivingHarvestable, "rock");
-        this.addItem(623, 4, EnemyType.LivingHarvestable, "rock");
-        this.addItem(624, 5, EnemyType.LivingHarvestable, "rock");
-        this.addItem(625, 6, EnemyType.LivingHarvestable, "rock");
-        this.addItem(626, 7, EnemyType.LivingHarvestable, "rock");
-        this.addItem(627, 8, EnemyType.LivingHarvestable, "rock");
+        // Mists Commom
+        this.addItem(654, 3, EnemyType.LivingHarvestable, "rock");
+        this.addItem(655, 4, EnemyType.LivingHarvestable, "rock");
+        this.addItem(656, 5, EnemyType.LivingHarvestable, "rock");
+        this.addItem(657, 6, EnemyType.LivingHarvestable, "rock");
+        // Mists Rare
+        this.addItem(680, 5, EnemyType.LivingHarvestable, "rock");
+        this.addItem(681, 6, EnemyType.LivingHarvestable, "rock");
+        this.addItem(682, 7, EnemyType.LivingHarvestable, "rock");
+        // Mists Epic
+        this.addItem(705, 6, EnemyType.LivingHarvestable, "rock");
+        this.addItem(706, 7, EnemyType.LivingHarvestable, "rock");
+        this.addItem(707, 8, EnemyType.LivingHarvestable, "rock");
+
         //#endregion
 
         //#region Ore
         // Mountain +25
-        this.addItem(478, 3, EnemyType.LivingHarvestable, "ore");
-        this.addItem(479, 3, EnemyType.LivingHarvestable, "ore");
-        this.addItem(480, 5, EnemyType.LivingHarvestable, "ore");
-        this.addItem(481, 5, EnemyType.LivingHarvestable, "ore");
-        this.addItem(482, 7, EnemyType.LivingHarvestable, "ore");
+        this.addItem(544, 3, EnemyType.LivingHarvestable, "ore");
+        this.addItem(546, 4, EnemyType.LivingHarvestable, "ore");
+        this.addItem(547, 5, EnemyType.LivingHarvestable, "ore");
+        this.addItem(549, 6, EnemyType.LivingHarvestable, "ore");
+       
+        // Roads
+        this.addItem(619, 5, EnemyType.LivingHarvestable, "ore");
+        this.addItem(620, 6, EnemyType.LivingHarvestable, "ore");
 
-        // Roads <=> Tx_MOB_CRITTER_ORE_ROADS +25
-        this.addItem(538, 4, EnemyType.LivingHarvestable, "ore");
-        this.addItem(539, 5, EnemyType.LivingHarvestable, "ore");
-        this.addItem(540, 6, EnemyType.LivingHarvestable, "ore");
-        this.addItem(541, 7, EnemyType.LivingHarvestable, "ore");
-        this.addItem(542, 8, EnemyType.LivingHarvestable, "ore");
-        // Veteran Roads <=> Tx_MOB_CRITTER_ORE_ROADS_VETERAN +25
-        this.addItem(543, 4, EnemyType.LivingHarvestable, "ore");
-        this.addItem(544, 5, EnemyType.LivingHarvestable, "ore");
-        this.addItem(545, 6, EnemyType.LivingHarvestable, "ore");
-        this.addItem(546, 7, EnemyType.LivingHarvestable, "ore");
-        this.addItem(547, 8, EnemyType.LivingHarvestable, "ore");
-        // Elite Roads <=> Tx_MOB_CRITTER_ORE_ROADS_ELITE +25
-        this.addItem(548, 4, EnemyType.LivingHarvestable, "ore");
-        this.addItem(549, 5, EnemyType.LivingHarvestable, "ore");
-        this.addItem(550, 6, EnemyType.LivingHarvestable, "ore");
-        this.addItem(551, 7, EnemyType.LivingHarvestable, "ore");
-        this.addItem(552, 8, EnemyType.LivingHarvestable, "ore");
-
-        // Mists Green <=> Tx_MOB_CRITTER_ORE_MISTS_GREEN +25
-        this.addItem(580, 3, EnemyType.LivingHarvestable, "ore");
-        this.addItem(581, 4, EnemyType.LivingHarvestable, "ore");
-        this.addItem(582, 5, EnemyType.LivingHarvestable, "ore");
-        this.addItem(583, 6, EnemyType.LivingHarvestable, "ore");
-        this.addItem(584, 7, EnemyType.LivingHarvestable, "ore");
-        this.addItem(585, 8, EnemyType.LivingHarvestable, "ore");
-        // Mists Red <=> Tx_MOB_CRITTER_ORE_MISTS_RED +25
-        this.addItem(604, 3, EnemyType.LivingHarvestable, "ore");
-        this.addItem(605, 4, EnemyType.LivingHarvestable, "ore");
-        this.addItem(606, 5, EnemyType.LivingHarvestable, "ore");
-        this.addItem(607, 6, EnemyType.LivingHarvestable, "ore");
-        this.addItem(608, 7, EnemyType.LivingHarvestable, "ore");
-        this.addItem(609, 8, EnemyType.LivingHarvestable, "ore");
-        // Mists Dead <=> Tx_MOB_CRITTER_ORE_MISTS_DEAD +25
-        this.addItem(628, 3, EnemyType.LivingHarvestable, "ore");
-        this.addItem(629, 4, EnemyType.LivingHarvestable, "ore");
-        this.addItem(630, 5, EnemyType.LivingHarvestable, "ore");
-        this.addItem(631, 6, EnemyType.LivingHarvestable, "ore");
-        this.addItem(632, 7, EnemyType.LivingHarvestable, "ore");
-        this.addItem(633, 8, EnemyType.LivingHarvestable, "ore");
+        // Mists
+        this.addItem(660, 3, EnemyType.LivingHarvestable, "ore");
+        this.addItem(661, 4, EnemyType.LivingHarvestable, "ore");
+        this.addItem(662, 5, EnemyType.LivingHarvestable, "ore");
+        this.addItem(663, 6, EnemyType.LivingHarvestable, "ore");
+        this.addItem(664, 7, EnemyType.LivingHarvestable, "ore");
+        // Mists rare
+        this.addItem(686, 5, EnemyType.LivingHarvestable, "ore");
+        this.addItem(687, 6, EnemyType.LivingHarvestable, "ore");
+        this.addItem(688, 7, EnemyType.LivingHarvestable, "ore");
+        // Mists epic
+        this.addItem(711, 6, EnemyType.LivingHarvestable, "ore");
+        this.addItem(712, 7, EnemyType.LivingHarvestable, "ore");
+        this.addItem(713, 8, EnemyType.LivingHarvestable, "ore");
+        
         //#endregion
 
         //#region Fiber
-        // ??? <=> Don't know the location <=> Tx_MOB_CRITTER_FIBER + 25
+        // Swamp
+        this.addItem(530, 4, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(531, 5, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(533, 6, EnemyType.LivingHarvestable, "fiber");
+
         this.addItem(472, 3, EnemyType.LivingHarvestable, "fiber");
         this.addItem(473, 5, EnemyType.LivingHarvestable, "fiber");
         this.addItem(474, 7, EnemyType.LivingHarvestable, "fiber");
 
-        // Roads <=> Tx_MOB_CRITTER_FIBER_ROADS +25
-        this.addItem(553, 4, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(554, 5, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(555, 6, EnemyType.LivingHarvestable, "fiber"); // 509 // -17
-        this.addItem(556, 7, EnemyType.LivingHarvestable, "fiber"); // 510 // -17
-        this.addItem(557, 8, EnemyType.LivingHarvestable, "fiber");
-        // Veteran Roads <=> Tx_MOB_CRITTER_FIBER_ROADS_VETERAN +25
-        this.addItem(558, 4, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(559, 5, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(560, 6, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(561, 7, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(562, 8, EnemyType.LivingHarvestable, "fiber");
-        // Elite Roads <=> Tw_MOB_CRITTER_FIBER_ROADS_ELITE +25
-        this.addItem(563, 4, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(564, 5, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(565, 6, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(566, 7, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(567, 8, EnemyType.LivingHarvestable, "fiber");
+        // Roads
+        this.addItem(634, 5, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(635, 6, EnemyType.LivingHarvestable, "fiber");
 
-        // Mists Green <=> Tx_MOB_CRITTER_FIBER_MISTS_GREEN +25
-        this.addItem(586, 3, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(587, 4, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(588, 5, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(589, 6, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(590, 7, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(591, 8, EnemyType.LivingHarvestable, "fiber");
-        // Mists Red <=> Tx_MOB_CRITTER_FIBER_MISTS_RED +25
-        this.addItem(610, 3, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(611, 4, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(612, 5, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(613, 6, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(614, 7, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(615, 8, EnemyType.LivingHarvestable, "fiber");
-        // Mists Dead <=> Tx_MOB_CRITTER_FIBER_MISTS_DEAD +25
-        this.addItem(634, 3, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(635, 4, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(636, 5, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(637, 6, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(638, 7, EnemyType.LivingHarvestable, "fiber");
-        this.addItem(639, 8, EnemyType.LivingHarvestable, "fiber");
+        // Black mists common
+        this.addItem(667, 4, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(668, 5, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(669, 6, EnemyType.LivingHarvestable, "fiber");
+
         //#endregion
         
         //#region Mist bosses
@@ -344,25 +186,25 @@ class MobsInfo{
         this.addItem(322, 8, EnemyType.MistBoss, "CRYSTALSPIDER");
         
         // Spider : VEILWEAVER <=> Tx_MOB_MISTS_SPIDER +25
-        this.addItem(343, 4, EnemyType.MistBoss, "VEILWEAVER");
-        this.addItem(344, 5, EnemyType.MistBoss, "VEILWEAVER");
-        this.addItem(345, 6, EnemyType.MistBoss, "VEILWEAVER");
-        this.addItem(346, 7, EnemyType.MistBoss, "VEILWEAVER");
-        this.addItem(347, 8, EnemyType.MistBoss, "VEILWEAVER");
+        this.addItem(357, 4, EnemyType.MistBoss, "VEILWEAVER");
+        this.addItem(358, 5, EnemyType.MistBoss, "VEILWEAVER");
+        this.addItem(359, 6, EnemyType.MistBoss, "VEILWEAVER");
+        this.addItem(360, 7, EnemyType.MistBoss, "VEILWEAVER");
+        this.addItem(361, 8, EnemyType.MistBoss, "VEILWEAVER");
 
         // FAIRYDRAGON <=> Tx_MOB_MISTS_FAIRYDRAGON +25
-        this.addItem(348, 4, EnemyType.MistBoss, "FAIRYDRAGON");
-        this.addItem(349, 5, EnemyType.MistBoss, "FAIRYDRAGON");
-        this.addItem(350, 6, EnemyType.MistBoss, "FAIRYDRAGON");
-        this.addItem(351, 7, EnemyType.MistBoss, "FAIRYDRAGON");
-        this.addItem(352, 8, EnemyType.MistBoss, "FAIRYDRAGON");
+        this.addItem(383, 4, EnemyType.MistBoss, "FAIRYDRAGON");
+        this.addItem(384, 5, EnemyType.MistBoss, "FAIRYDRAGON");
+        this.addItem(385, 6, EnemyType.MistBoss, "FAIRYDRAGON");
+        this.addItem(386, 7, EnemyType.MistBoss, "FAIRYDRAGON");
+        this.addItem(387, 8, EnemyType.MistBoss, "FAIRYDRAGON");
+        
 
         // GRIFFIN <=> Tx_MOB_MISTS_GRIFFIN +25
         this.addItem(353, 4, EnemyType.MistBoss, "GRIFFIN");
         this.addItem(354, 5, EnemyType.MistBoss, "GRIFFIN");
         this.addItem(355, 6, EnemyType.MistBoss, "GRIFFIN");
         this.addItem(356, 7, EnemyType.MistBoss, "GRIFFIN");
-        this.addItem(357, 8, EnemyType.MistBoss, "GRIFFIN");
         //#endregion
         
         

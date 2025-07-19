@@ -96,7 +96,6 @@ socket.addEventListener('message', (event) => {
   var extractedString = data.code;
 
   var extractedDictionary = JSON.parse(data.dictionary);
-
   switch (extractedString)
   {
     case "request":
@@ -118,7 +117,6 @@ function onEvent(Parameters)
 {
     const id = parseInt(Parameters[0]);
     const eventCode = Parameters[252];
-
     switch (eventCode)
     {
         // DEBUG
@@ -194,14 +192,12 @@ function onEvent(Parameters)
         
         // TEST
         case EventCodes.MountHealthUpdate:
-            console.log();
             console.log("MountHealthUpdate");
             console.log(Parameters);
             break;
 
         // TEST
         case EventCodes.CharacterStats:
-            console.log();
             console.log("CharacterStats");
             console.log(Parameters);
             break;
@@ -257,6 +253,10 @@ function onEvent(Parameters)
             console.log("Key sync")
             console.log(Parameters)
             break;
+
+        /*default:
+            console.log("default");
+            console.log(Parameters);*/
     }
 };
 
@@ -267,7 +267,6 @@ function onRequest(Parameters)
     {
         lpX = Parameters[1][0];
         lpY = Parameters[1][1];
-        console.log(lpX)
     }
 }
 
