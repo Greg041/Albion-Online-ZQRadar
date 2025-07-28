@@ -39,6 +39,8 @@ class MobsInfo{
         this.addItem(456, 1, EnemyType.LivingSkinnable, "hide"); // Marmot
 
         // Forest biome 
+        this.addItem(402, 4, EnemyType.LivingSkinnable, "hide"); // Boar
+        this.addItem(404, 5, EnemyType.LivingSkinnable, "hide"); // Bear
 
         // Forest biome treasure
 
@@ -52,8 +54,8 @@ class MobsInfo{
         // Roads 
 
         // Mists yellow 
+        this.addItem(370, 2, EnemyType.LivingSkinnable, "hide"); // fox
         this.addItem(371, 3, EnemyType.LivingSkinnable, "hide"); // Doe
-        this.addItem(370, 4, EnemyType.LivingSkinnable, "hide"); // HART
 
         // Mists black common
         this.addItem(369, 1, EnemyType.LivingSkinnable, "hide");
@@ -61,11 +63,16 @@ class MobsInfo{
         this.addItem(373, 5, EnemyType.LivingSkinnable, "hide"); // OWL
         this.addItem(374, 6, EnemyType.LivingSkinnable, "hide"); // Wolfhound
         // Mists epic
+        this.addItem(375, 7, EnemyType.LivingSkinnable, "hide"); // Mauler
         
         // Cougars
         this.addItem(537, 3, EnemyType.LivingSkinnable, "hide"); // Cougar
+        this.addItem(538, 4, EnemyType.LivingSkinnable, "hide"); // Cougar
+        this.addItem(539, 5, EnemyType.LivingSkinnable, "hide"); // Cougar
         this.addItem(573, 4, EnemyType.LivingSkinnable, "hide"); // Cougar
         this.addItem(574, 5, EnemyType.LivingSkinnable, "hide"); // Cougar
+        this.addItem(575, 6, EnemyType.LivingSkinnable, "hide"); // Cougar
+        this.addItem(576, 7, EnemyType.LivingSkinnable, "hide"); // Cougar
         this.addItem(577, 8, EnemyType.LivingSkinnable, "hide"); // Cougar
 
         // Treasure Mists
@@ -74,6 +81,7 @@ class MobsInfo{
 
         //#region Logs
         // Forest +25
+        this.addItem(557, 5, EnemyType.LivingHarvestable, "Logs");
         this.addItem(487, 7, EnemyType.LivingHarvestable, "Logs");
 
         // Roads
@@ -87,10 +95,14 @@ class MobsInfo{
         this.addItem(650, 5, EnemyType.LivingHarvestable, "Logs");
         this.addItem(651, 6, EnemyType.LivingHarvestable, "Logs");
         // Mists rare map
+        this.addItem(672, 3, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(673, 4, EnemyType.LivingHarvestable, "Logs");
         this.addItem(674, 5, EnemyType.LivingHarvestable, "Logs");
         this.addItem(675, 6, EnemyType.LivingHarvestable, "Logs");
         this.addItem(676, 7, EnemyType.LivingHarvestable, "Logs");
         // Mists epic map
+        this.addItem(697, 4, EnemyType.LivingHarvestable, "Logs");
+        this.addItem(698, 5, EnemyType.LivingHarvestable, "Logs");
         this.addItem(699, 6, EnemyType.LivingHarvestable, "Logs");
         this.addItem(700, 7, EnemyType.LivingHarvestable, "Logs");
         this.addItem(701, 8, EnemyType.LivingHarvestable, "Logs");
@@ -99,8 +111,9 @@ class MobsInfo{
         //#region Rock
         // Highland +25
         this.addItem(563, 3, EnemyType.LivingHarvestable, "rock");
-         this.addItem(567, 5, EnemyType.LivingHarvestable, "rock");
-         this.addItem(569, 5, EnemyType.LivingHarvestable, "rock");
+        this.addItem(564, 3, EnemyType.LivingHarvestable, "rock");
+        this.addItem(567, 5, EnemyType.LivingHarvestable, "rock");
+        this.addItem(569, 5, EnemyType.LivingHarvestable, "rock");
 
         // Roads 
         this.addItem(604, 5, EnemyType.LivingHarvestable, "rock");
@@ -112,13 +125,21 @@ class MobsInfo{
         this.addItem(656, 5, EnemyType.LivingHarvestable, "rock");
         this.addItem(657, 6, EnemyType.LivingHarvestable, "rock");
         // Mists Rare
+        this.addItem(678, 3, EnemyType.LivingHarvestable, "rock");
+        this.addItem(679, 4, EnemyType.LivingHarvestable, "rock");
         this.addItem(680, 5, EnemyType.LivingHarvestable, "rock");
         this.addItem(681, 6, EnemyType.LivingHarvestable, "rock");
         this.addItem(682, 7, EnemyType.LivingHarvestable, "rock");
-        // Mists Epic
+        // Mists Epic, 
+        this.addItem(695, 4, EnemyType.LivingHarvestable, "rock");
+        this.addItem(696, 5, EnemyType.LivingHarvestable, "rock");
+        // Mists legendary
+        this.addItem(702, 3, EnemyType.LivingHarvestable, "rock");
+        this.addItem(703, 4, EnemyType.LivingHarvestable, "rock");
+        this.addItem(704, 5, EnemyType.LivingHarvestable, "rock");
         this.addItem(705, 6, EnemyType.LivingHarvestable, "rock");
         this.addItem(706, 7, EnemyType.LivingHarvestable, "rock");
-        this.addItem(707, 8, EnemyType.LivingHarvestable, "rock");
+        this.addItem(707, 8, EnemyType.LivingHarvestable, "rock");        
 
         //#endregion
 
@@ -140,18 +161,28 @@ class MobsInfo{
         this.addItem(663, 6, EnemyType.LivingHarvestable, "ore");
         this.addItem(664, 7, EnemyType.LivingHarvestable, "ore");
         // Mists rare
+        this.addItem(684, 3, EnemyType.LivingHarvestable, "ore");
+        this.addItem(685, 4, EnemyType.LivingHarvestable, "ore");
         this.addItem(686, 5, EnemyType.LivingHarvestable, "ore");
         this.addItem(687, 6, EnemyType.LivingHarvestable, "ore");
         this.addItem(688, 7, EnemyType.LivingHarvestable, "ore");
         // Mists epic
+        this.addItem(709, 4, EnemyType.LivingHarvestable, "ore");
+        this.addItem(710, 5, EnemyType.LivingHarvestable, "ore");
         this.addItem(711, 6, EnemyType.LivingHarvestable, "ore");
         this.addItem(712, 7, EnemyType.LivingHarvestable, "ore");
         this.addItem(713, 8, EnemyType.LivingHarvestable, "ore");
+        // Mists legendary
+        this.addItem(708, 6, EnemyType.LivingHarvestable, "ore");
+
+        // Aspects
+        this.addItem(767, 6, EnemyType.LivingHarvestable, "ore");
         
         //#endregion
 
         //#region Fiber
         // Swamp
+        this.addItem(528, 3, EnemyType.LivingHarvestable, "fiber");
         this.addItem(530, 4, EnemyType.LivingHarvestable, "fiber");
         this.addItem(531, 5, EnemyType.LivingHarvestable, "fiber");
         this.addItem(533, 6, EnemyType.LivingHarvestable, "fiber");
@@ -164,6 +195,15 @@ class MobsInfo{
         this.addItem(634, 5, EnemyType.LivingHarvestable, "fiber");
         this.addItem(635, 6, EnemyType.LivingHarvestable, "fiber");
 
+        // Mists epic
+        this.addItem(690, 3, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(691, 4, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(692, 5, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(693, 6, EnemyType.LivingHarvestable, "fiber");
+         this.addItem(694, 7, EnemyType.LivingHarvestable, "fiber");
+        // Mists legendary
+        this.addItem(715, 4, EnemyType.LivingHarvestable, "fiber");
+
         // Black mists common
         this.addItem(667, 4, EnemyType.LivingHarvestable, "fiber");
         this.addItem(668, 5, EnemyType.LivingHarvestable, "fiber");
@@ -174,37 +214,23 @@ class MobsInfo{
         //#region Mist bosses
         
         // CRYSTALSPIDER <=> Tx_MOB_ARCANE_CRYSTALSPIDER_BOSS
-        this.addItem(314, 5, EnemyType.MistBoss, "CRYSTALSPIDER");
-        this.addItem(315, 6, EnemyType.MistBoss, "CRYSTALSPIDER");
-        this.addItem(316, 7, EnemyType.MistBoss, "CRYSTALSPIDER");
-        this.addItem(317, 8, EnemyType.MistBoss, "CRYSTALSPIDER");
-        // CRYSTALSPIDER VETERAN <=> Tx_MOB_ARCANE_CRYSTALSPIDER_VETERAN_BOSS 
-        this.addItem(318, 4, EnemyType.MistBoss, "CRYSTALSPIDER");
-        this.addItem(319, 5, EnemyType.MistBoss, "CRYSTALSPIDER");
-        this.addItem(320, 6, EnemyType.MistBoss, "CRYSTALSPIDER");
-        this.addItem(321, 7, EnemyType.MistBoss, "CRYSTALSPIDER");
-        this.addItem(322, 8, EnemyType.MistBoss, "CRYSTALSPIDER");
+        this.addItem(345, 5, EnemyType.MistBoss, "CRYSTALSPIDER");
+        this.addItem(346, 6, EnemyType.MistBoss, "CRYSTALSPIDER");
+        this.addItem(347, 7, EnemyType.MistBoss, "CRYSTALSPIDER");
         
-        // Spider : VEILWEAVER <=> Tx_MOB_MISTS_SPIDER +25
+        // Spider: Mists common
         this.addItem(357, 4, EnemyType.MistBoss, "VEILWEAVER");
-        this.addItem(358, 5, EnemyType.MistBoss, "VEILWEAVER");
-        this.addItem(359, 6, EnemyType.MistBoss, "VEILWEAVER");
-        this.addItem(360, 7, EnemyType.MistBoss, "VEILWEAVER");
-        this.addItem(361, 8, EnemyType.MistBoss, "VEILWEAVER");
 
-        // FAIRYDRAGON <=> Tx_MOB_MISTS_FAIRYDRAGON +25
-        this.addItem(383, 4, EnemyType.MistBoss, "FAIRYDRAGON");
-        this.addItem(384, 5, EnemyType.MistBoss, "FAIRYDRAGON");
-        this.addItem(385, 6, EnemyType.MistBoss, "FAIRYDRAGON");
-        this.addItem(386, 7, EnemyType.MistBoss, "FAIRYDRAGON");
-        this.addItem(387, 8, EnemyType.MistBoss, "FAIRYDRAGON");
+        // FAIRYDRAGON Mists epic
+        this.addItem(384, 7, EnemyType.MistBoss, "FAIRYDRAGON");
+        // this.addItem(387, 4, EnemyType.MistBoss, "FAIRYDRAGON");
+        // this.addItem(388, 5, EnemyType.MistBoss, "FAIRYDRAGON");
+        // this.addItem(389, 6, EnemyType.MistBoss, "FAIRYDRAGON");
+        // this.addItem(390, 7, EnemyType.MistBoss, "FAIRYDRAGON");
         
 
-        // GRIFFIN <=> Tx_MOB_MISTS_GRIFFIN +25
-        this.addItem(353, 4, EnemyType.MistBoss, "GRIFFIN");
-        this.addItem(354, 5, EnemyType.MistBoss, "GRIFFIN");
-        this.addItem(355, 6, EnemyType.MistBoss, "GRIFFIN");
-        this.addItem(356, 7, EnemyType.MistBoss, "GRIFFIN");
+        // GRIFFIN mists rare
+        this.addItem(392, 4, EnemyType.MistBoss, "GRIFFIN");
         //#endregion
         
         
