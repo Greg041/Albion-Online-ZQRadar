@@ -112,6 +112,7 @@ class MobsInfo{
         // Highland +25
         this.addItem(563, 3, EnemyType.LivingHarvestable, "rock");
         this.addItem(564, 3, EnemyType.LivingHarvestable, "rock");
+        this.addItem(566, 4, EnemyType.LivingHarvestable, "rock");
         this.addItem(567, 5, EnemyType.LivingHarvestable, "rock");
         this.addItem(569, 5, EnemyType.LivingHarvestable, "rock");
 
@@ -203,6 +204,9 @@ class MobsInfo{
          this.addItem(694, 7, EnemyType.LivingHarvestable, "fiber");
         // Mists legendary
         this.addItem(715, 4, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(717, 6, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(718, 7, EnemyType.LivingHarvestable, "fiber");
+        this.addItem(719, 8, EnemyType.LivingHarvestable, "fiber");
 
         // Black mists common
         this.addItem(667, 4, EnemyType.LivingHarvestable, "fiber");
@@ -218,19 +222,15 @@ class MobsInfo{
         this.addItem(346, 6, EnemyType.MistBoss, "CRYSTALSPIDER");
         this.addItem(347, 7, EnemyType.MistBoss, "CRYSTALSPIDER");
         
-        // Spider: Mists common
-        this.addItem(357, 4, EnemyType.MistBoss, "VEILWEAVER");
+        // Spider: Mists common, uncommon
+        this.addItem(384, 6, EnemyType.MistBoss, "VEILWEAVER");
 
         // FAIRYDRAGON Mists epic
-        this.addItem(384, 7, EnemyType.MistBoss, "FAIRYDRAGON");
-        // this.addItem(387, 4, EnemyType.MistBoss, "FAIRYDRAGON");
-        // this.addItem(388, 5, EnemyType.MistBoss, "FAIRYDRAGON");
-        // this.addItem(389, 6, EnemyType.MistBoss, "FAIRYDRAGON");
-        // this.addItem(390, 7, EnemyType.MistBoss, "FAIRYDRAGON");
+        this.addItem(388, 5, EnemyType.MistBoss, "FAIRYDRAGON");
         
-
         // GRIFFIN mists rare
         this.addItem(392, 4, EnemyType.MistBoss, "GRIFFIN");
+        this.addItem(393, 5, EnemyType.MistBoss, "GRIFFIN");
         //#endregion
         
         
@@ -725,20 +725,6 @@ class MobsInfo{
         //#region Event Enemies
         //#region EASTER
         // Chests
-        this.addItem(716, 2, EnemyType.Events, "EVENTEASTERCHEST2");
-        this.addItem(717, 3, EnemyType.Events, "EVENTEASTERCHEST2");
-        this.addItem(718, 4, EnemyType.Events, "EVENTEASTERCHEST2");
-        this.addItem(719, 5, EnemyType.Events, "EVENTEASTERCHEST2");
-        this.addItem(720, 6, EnemyType.Events, "EVENTEASTERCHEST2");
-        this.addItem(721, 7, EnemyType.Events, "EVENTEASTERCHEST2");
-        this.addItem(722, 8, EnemyType.Events, "EVENTEASTERCHEST2");
-
-        // Enemies
-        this.addItem(733, 2, EnemyType.Events, "EVENTEASTERCHEST1");
-        this.addItem(734, 3, EnemyType.Events, "EVENTEASTERCHEST1");
-        this.addItem(735, 4, EnemyType.Events, "EVENTEASTERCHEST1");
-        this.addItem(736, 5, EnemyType.Events, "EVENTEASTERCHEST1");
-        this.addItem(737, 6, EnemyType.Events, "EVENTEASTERCHEST1");
         //#endregion
  
         //#endregion

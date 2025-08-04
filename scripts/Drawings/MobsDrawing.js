@@ -47,6 +47,7 @@ export class MobsDrawing extends DrawingUtils
 
             let imageName = undefined;
             let imageFolder = undefined;
+            let imageSize = 40;
 
             /* Set by default to enemy, since there are more, so we don't add at each case */
             let drawHp = this.settings.enemiesHP;
@@ -83,6 +84,7 @@ export class MobsDrawing extends DrawingUtils
 
                 drawHp = this.settings.enemiesHP;
                 drawId = this.settings.enemiesID;
+                imageSize = 60;
             }
             else if (mobOne.type == EnemyType.Events)
             {
@@ -94,7 +96,7 @@ export class MobsDrawing extends DrawingUtils
             }
 
             if (imageName !== undefined && imageFolder !== undefined)
-                this.DrawCustomImage(ctx, point.x, point.y, imageName, imageFolder, 40);
+                this.DrawCustomImage(ctx, point.x, point.y, imageName, imageFolder, imageSize);
             else
                 this.drawFilledCircle(ctx, point.x, point.y, 10, "#4169E1"); // Unmanaged ids
 
