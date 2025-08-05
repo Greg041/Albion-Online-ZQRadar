@@ -84,7 +84,7 @@ export class MobsDrawing extends DrawingUtils
 
                 drawHp = this.settings.enemiesHP;
                 drawId = this.settings.enemiesID;
-                imageSize = 60;
+                imageSize = 80;
             }
             else if (mobOne.type == EnemyType.Events)
             {
