@@ -26,7 +26,6 @@ class MobsInfo{
         
         // Steppe biome
         this.addItem(436, 3, EnemyType.LivingSkinnable, "hide"); // Moabird
-        this.addItem(434, 4, EnemyType.LivingSkinnable, "hide"); // Giant stag
         this.addItem(538, 4, EnemyType.LivingSkinnable, "hide"); // Cougar
         this.addItem(438, 4, EnemyType.LivingSkinnable, "hide"); // Giant stag
         this.addItem(440, 5, EnemyType.LivingSkinnable, "hide"); // Terrorbird
@@ -242,25 +241,9 @@ class MobsInfo{
         //#region Drones
         //#region Avalon Drones Treasure
         // Standard
-        this.addItem(830, 5, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(831, 6, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(832, 7, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(833, 8, EnemyType.Drone, "AVALONMINIONCHEST");
-        // Uncomon
-        this.addItem(834, 5, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(835, 6, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(836, 7, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(837, 8, EnemyType.Drone, "AVALONMINIONCHEST");
-        // Rare
-        this.addItem(838, 5, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(839, 6, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(840, 7, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(841, 8, EnemyType.Drone, "AVALONMINIONCHEST");
-        // Legendary
-        this.addItem(842, 5, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(843, 6, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(844, 7, EnemyType.Drone, "AVALONMINIONCHEST");
-        this.addItem(845, 8, EnemyType.Drone, "AVALONMINIONCHEST");
+        this.addItem(907, 4, EnemyType.Drone, "AVALONMINIONCHEST");
+        this.addItem(908, 5, EnemyType.Drone, "AVALONMINIONCHEST");
+        this.addItem(909, 6, EnemyType.Drone, "AVALONMINIONCHEST");
         //#endregion
         /*
         // Worker

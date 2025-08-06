@@ -80,8 +80,6 @@ class MobsHandler
 
     NewMobEvent(parameters)
     {
-        console.log(parameters)
-
         const id = parseInt(parameters[0]); // entity id
         let typeId = parseInt(parameters[1]); // real type id
 

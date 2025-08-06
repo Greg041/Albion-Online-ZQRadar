@@ -44,7 +44,7 @@ export const EventCodes =
 	TreasureDestinationObjectStatus : 42,
 	CloseTreasureDestinationObject : 43,
 	NewSilverObject : 44,
-	NewBuilding : 45,
+	NewBuilding : 45, //
 	HarvestableChangeState : 46,
 	MobChangeState : 47,
 	FactionBuildingInfo : 48,
@@ -122,7 +122,7 @@ export const EventCodes =
 	EndArenaMatch : 120,
 	MatchUpdate : 121,
 	ActiveMatchUpdate : 122,
-	NewMob : 123,
+	NewMob : 123, //
 	DebugMobInfo : 124,
 	DebugVariablesInfo : 125,
 	DebugReputationInfo : 126,

@@ -67,10 +67,6 @@ export class FishingHandler
     {
         if (!this.settings.showFish) return;
 
-        console.log("Fishing END:");
-        console.log(Parameters);
-        console.log();
-
         const id = Parameters[0];
 
         if (!this.fishes.some(fish => fish.id === id))

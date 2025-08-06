@@ -229,11 +229,9 @@ export class PlayersHandler {
     {
         for (const player of this.playersInRange)
         {
-            console.log("Start")
 
             if (player.id === id)
             {
-                console.log(parameters)
                 const data = parameters[1]["data"];
 
                 /*for (let i = 0; i < data.length; i++)
@@ -335,10 +333,6 @@ export class PlayersHandler {
         if (!uPlayer) return;
 
         uPlayer.currentHealth = Parameters[3];
-
-        console.log();
-        console.log("Health update");
-        console.log(Parameters);
     }
 
     Clear()

@@ -6,6 +6,29 @@ const DungeonType =
     Hellgate: 3
 };
 
+const DungeonEnchants = {
+    215: 0,
+    220: 0,
+    237: 0,
+    229: 0,
+    239: 1,
+    216: 1,
+    221: 1,
+    230: 1,
+    240: 2,
+    217: 2,
+    222: 2,
+    231: 2,
+    240: 3,
+    218: 3,
+    223: 3,
+    232: 3,
+    241: 4,
+    219: 4,
+    224: 4,
+    233: 4,
+}
+
 class Dungeon
 {
     constructor(id, posX, posY, name, type, enchant)
@@ -63,6 +86,7 @@ class DungeonsHandler
         const position = parameters[1];
         const name = parameters[3];
         const enchant = parameters[6];
+        console.log("Dungeon event: " + id + " " + position + " " + name + " " + enchant);
 
         this.addDungeon(id, position[0], position[1], name, enchant);
     }
@@ -87,8 +111,8 @@ class DungeonsHandler
         }
         else if (lowerCaseName.includes("solo")) // solo
         {
-            // Test if solo checkbox
-            if (!this.settings.dungeonSolo || !this.settings.dungeonEnchants[enchant]) return;
+            console.log('dungeon enchant', enchant)
+            if (!this.settings.dungeonSolo || !this.settings.dungeonEnchants[DungeonEnchants[enchant]]) return;
 
             dungeonType = DungeonType.Solo;
         }
@@ -107,7 +131,8 @@ class DungeonsHandler
             dungeonType = DungeonType.Group;
         }
 
-        const d = new Dungeon(id, posX, posY, name, dungeonType, enchant);
+        const d = new Dungeon(id, posX, posY, name, dungeonType, DungeonEnchants[enchant]);
+        console.log(JSON.stringify(d));
         this.dungeonList.push(d);
     }
 
